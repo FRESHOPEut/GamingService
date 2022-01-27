@@ -27,9 +27,9 @@ public class Main {
 		@SuppressWarnings("deprecation")
 		Date freshopeDate = new Date(1997,8,8);
 		@SuppressWarnings("deprecation")
-		Date startingDate = new Date(1997,8,8);
+		Date startingDate = new Date(2022,1,27);
 		@SuppressWarnings("deprecation")
-		Date finishingDate = new Date(1997,8,8);
+		Date finishingDate = new Date(2022,2,1);
 		String[] images1 = new String[] {};
 		String[] images2 = new String[] {};
 		
