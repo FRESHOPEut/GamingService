@@ -37,7 +37,7 @@ public class Main {
 		System.out.println("-----------------------------");
 		
 		
-		Customer freshope = new Customer(1,"Umut","Taze","11599133956",freshopeDate,
+		Customer freshope = new Customer(1,"Umut","Taze","12345678916",freshopeDate,
 				"FRESHOPE","freshope@hotmail.com","Something123.");
 		CustomerManager customerManager = new CustomerManager(new CustomerHibernateDao(), 
 				new CustomerDbLogger(), new MernisAdapterManager());
