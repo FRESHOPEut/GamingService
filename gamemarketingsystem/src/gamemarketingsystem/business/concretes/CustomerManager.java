@@ -46,7 +46,7 @@ public class CustomerManager implements CustomerService {
 	@Override
 	public void delete(Customer customer) {
 		this.customerDao.delete(customer);
-		this.customerDao.delete(customer);
+		this.customerLogger.delete(customer);
 	}
 
 }
